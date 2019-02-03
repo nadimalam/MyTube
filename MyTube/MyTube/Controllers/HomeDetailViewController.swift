@@ -21,7 +21,6 @@ class HomeDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        webView.loadHTMLString(video.linkURL, baseURL: nil)
         
         let url = NSURL(string: "https://www.youtube.com/watch?v=\(video.id)");
         let requestObj = NSURLRequest(url: url! as URL);

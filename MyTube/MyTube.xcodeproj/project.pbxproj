@@ -17,7 +17,7 @@
 		087322D02206A19D00A87EAB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087322CF2206A19D00A87EAB /* Video.swift */; };
 		087322D3220737DE00A87EAB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087322D2220737DE00A87EAB /* APIService.swift */; };
 		087322D52207685F00A87EAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087322D42207685F00A87EAB /* Extensions.swift */; };
-		51706BCD3CC0A416B44BE14A /* Pods_MyTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863114F917E0C8C42F3402EC /* Pods_MyTube.framework */; };
+		E4577D4106E8BF2F62E64F22 /* Pods_MyTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83CB7BD1DC36CA643742B67 /* Pods_MyTube.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		087322CF2206A19D00A87EAB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		087322D2220737DE00A87EAB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		087322D42207685F00A87EAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		863114F917E0C8C42F3402EC /* Pods_MyTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D765B4EC3CC9F708EE140C27 /* Pods-MyTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTube/Pods-MyTube.debug.xcconfig"; sourceTree = "<group>"; };
-		F18A016B169389AA74688F77 /* Pods-MyTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTube/Pods-MyTube.release.xcconfig"; sourceTree = "<group>"; };
+		B6C95CE01C2A854F5D16152C /* Pods-MyTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTube/Pods-MyTube.debug.xcconfig"; sourceTree = "<group>"; };
+		E83CB7BD1DC36CA643742B67 /* Pods_MyTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E51EE7B8817697311F0A60 /* Pods-MyTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTube/Pods-MyTube.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51706BCD3CC0A416B44BE14A /* Pods_MyTube.framework in Frameworks */,
+				E4577D4106E8BF2F62E64F22 /* Pods_MyTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 			children = (
 				087322B422068CDE00A87EAB /* MyTube */,
 				087322B322068CDE00A87EAB /* Products */,
-				797390683C7DBA56E4E80BB0 /* Pods */,
-				1B309604A6451B84E80BBD40 /* Frameworks */,
+				270D7A3EED9FBB0013F63A0D /* Pods */,
+				0F71E4EE490715498A9E088D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,19 +126,19 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		1B309604A6451B84E80BBD40 /* Frameworks */ = {
+		0F71E4EE490715498A9E088D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				863114F917E0C8C42F3402EC /* Pods_MyTube.framework */,
+				E83CB7BD1DC36CA643742B67 /* Pods_MyTube.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		797390683C7DBA56E4E80BB0 /* Pods */ = {
+		270D7A3EED9FBB0013F63A0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D765B4EC3CC9F708EE140C27 /* Pods-MyTube.debug.xcconfig */,
-				F18A016B169389AA74688F77 /* Pods-MyTube.release.xcconfig */,
+				B6C95CE01C2A854F5D16152C /* Pods-MyTube.debug.xcconfig */,
+				F8E51EE7B8817697311F0A60 /* Pods-MyTube.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -150,11 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 087322C422068CDF00A87EAB /* Build configuration list for PBXNativeTarget "MyTube" */;
 			buildPhases = (
-				BBE2DE84EC0B40F4E4778129 /* [CP] Check Pods Manifest.lock */,
+				34E3357AD50D35104C9CD02D /* [CP] Check Pods Manifest.lock */,
 				087322AE22068CDD00A87EAB /* Sources */,
 				087322AF22068CDD00A87EAB /* Frameworks */,
 				087322B022068CDD00A87EAB /* Resources */,
-				C5D7911A803C69E699807E1F /* [CP] Embed Pods Frameworks */,
+				4D1A706E1B2F96B4E6A8EF6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,7 +212,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BBE2DE84EC0B40F4E4778129 /* [CP] Check Pods Manifest.lock */ = {
+		34E3357AD50D35104C9CD02D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,7 +230,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5D7911A803C69E699807E1F /* [CP] Embed Pods Frameworks */ = {
+		4D1A706E1B2F96B4E6A8EF6E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,11 +405,12 @@
 		};
 		087322C522068CDF00A87EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D765B4EC3CC9F708EE140C27 /* Pods-MyTube.debug.xcconfig */;
+			baseConfigurationReference = B6C95CE01C2A854F5D16152C /* Pods-MyTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQVE6U8928;
+				DEVELOPMENT_TEAM = 947ZAYDTA7;
 				INFOPLIST_FILE = MyTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,6 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iSoftCode.MyTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -424,11 +426,12 @@
 		};
 		087322C622068CDF00A87EAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F18A016B169389AA74688F77 /* Pods-MyTube.release.xcconfig */;
+			baseConfigurationReference = F8E51EE7B8817697311F0A60 /* Pods-MyTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQVE6U8928;
+				DEVELOPMENT_TEAM = 947ZAYDTA7;
 				INFOPLIST_FILE = MyTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,6 +439,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iSoftCode.MyTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
